@@ -58,6 +58,7 @@ public class EmployeeController {
   @DeleteMapping("/employees/delete")
   public ResponseEntity<String> deleteAllEmployees() {
     System.out.println("Delete All Employees...");
+    System.out.println("Git commit Test");
  
     repository.deleteAll();
  
